@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1{
+    color: pink;
+    /* text-align: center; */
+}
+.container {
+    text-align: center;
+}
+
+#click{
+    background-color: pink;
+    color: black;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.bulb {
+    width: 100px;
+    height: 100px;
+    background: #090909;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+    transition:background 0.5s;
+}
+
+.on {
+    background: yellow;
+}
+
+
+
+
+
