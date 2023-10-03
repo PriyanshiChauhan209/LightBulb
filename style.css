@@ -16,6 +16,7 @@ body h1{
 }
 .container {
     text-align: center;
+    /* padding-top: 20px; */
 }
 
 #click{
@@ -23,6 +24,7 @@ body h1{
     color: black;
     border-radius: 20px;
     padding: 12px;
+    font-size: 20px;
 }
 .bulb {
     width: 100px;
