@@ -7,9 +7,13 @@ click.addEventListener('click', function () {
 
     if (bulbOn) {
         bulb.classList.remove('on');
-        click.textContent = 'Turn On';
+        click.textContent = 'Wake Up';
+        container.style.backgroundImage = 'url("night-background.jpg")'; // Change to the nighttime background
+
     } else {
         bulb.classList.add('on');
-        click.textContent = 'Turn Off';
+        click.textContent = 'Sleep';
+        container.style.backgroundImage = 'url("day-background.jpg")'; // Change to the daytime background
+
     }
 });
