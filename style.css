@@ -25,7 +25,7 @@ body {
     background: yellow;
 
     box-shadow: 0px 0px 30px  yellow;
-
+    background-image: url('/images/day-background.jpg');
    
 }
 
